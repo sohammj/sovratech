@@ -15,8 +15,8 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { label: "Services", href: "#services" },
     { label: "About", href: "#about" },
+    { label: "Services", href: "#services" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -29,6 +29,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between px-6 md:px-12 py-4 max-w-7xl mx-auto">
         {/* Centered Brand */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
+        <a href="#top" className="block text-center"></a>
           <h1 className="text-white text-lg tracking-[0.35em] uppercase font-[700] font-poppins text-center">
             SovraTech
           </h1>
