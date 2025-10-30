@@ -45,7 +45,7 @@ export default function Services() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.04, y: -5 }}
-            transition={{ duration: 0.4, ease: "easeOut" }}
+            transition={{ duration: 0.1, ease: "easeOut" }}
             viewport={{ once: true }}
             className="rounded-2xl overflow-hidden bg-neutral-900/40 hover:bg-neutral-800/60 backdrop-blur-[2px] transition-all duration-300 border border-neutral-800"
           >
