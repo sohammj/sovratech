@@ -16,6 +16,12 @@ export default function ServiceFaq({ items }: Props) {
       {items.map((item, index) => {
         const isOpen = openIndex === index;
 
+
+
+
+
+
+        
         return (
           <div
             key={item.question}
