@@ -6,6 +6,7 @@ export type TeamMember = {
   image: string;
   glb: string;
   linkedin: string;
+  tag?: string;
 };
 export const teamMembers: TeamMember[] = [
   {
@@ -16,6 +17,7 @@ export const teamMembers: TeamMember[] = [
     image: "/soham.jpg",
     glb: "/assets/soham.glb",
     linkedin: "https://www.linkedin.com/in/sohamjoshi05/",
+    tag: "Founder",
   },
   {
     id: "anuj",
@@ -25,6 +27,7 @@ export const teamMembers: TeamMember[] = [
     image: "/member3.jpg",
     glb: "/assets/anuj.glb",
     linkedin: "https://www.linkedin.com/in/anuj-iyer/",
+    tag: "Developer",
   },
   {
     id: "parth",
@@ -34,5 +37,6 @@ export const teamMembers: TeamMember[] = [
     image: "/member2.jpg",
     glb: "/assets/parth.glb",
     linkedin: "https://www.linkedin.com/in/parthdhadke/",
+    tag: "Designer",
   },
 ];

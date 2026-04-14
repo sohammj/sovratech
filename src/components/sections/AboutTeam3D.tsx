@@ -75,7 +75,7 @@ export default function AboutTeam3D() {
                         : "border-black/20 bg-black/5 text-black/70 hover:border-black/40 hover:bg-black/10 hover:text-black"
                     }`}
                   >
-                    {member.name}
+                    {member.tag}
                   </button>
                 );
               })}
