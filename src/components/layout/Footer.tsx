@@ -161,7 +161,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="mailto:hello@sovratech.com"
+              href="mailto:soham@sovratech.com"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-black/15 bg-white text-black transition hover:scale-[1.05] hover:border-[#004aad] hover:text-[#004aad]"
             >
               <MailIcon className="h-[18px] w-[18px]" />
