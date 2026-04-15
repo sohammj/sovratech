@@ -254,7 +254,7 @@ export default function Navbar() {
                     </a>
 
                     <a
-                      href="mailto:hello@sovratech.com"
+                      href="mailto:soham@sovratech.com"
                       className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/10 text-white/85 backdrop-blur-md transition hover:scale-[1.05] hover:border-[#004aad] hover:bg-white hover:text-[#004aad]"
                     >
                       <MailIcon className="h-[18px] w-[18px]" />
