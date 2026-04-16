@@ -254,7 +254,7 @@ export default function ScrollServices() {
                     {service.text}
                   </p>
 
-                  <div className="service-link mt-7">
+                  {/* <div className="service-link mt-7">
                     <Link
                       href={`/services/${service.slug}`}
                       className="inline-flex items-center gap-2 text-sm font-medium tracking-[0.08em] text-[#111] transition hover:text-[#004aad]"
@@ -262,7 +262,7 @@ export default function ScrollServices() {
                       Learn More
                       <span className="text-[#004aad]">→</span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
